@@ -1,0 +1,50 @@
+{
+  "name": "react-starter-project",
+  "version": "0.0.0",
+  "description": "React Starter Project",
+  "scripts": {
+    "build": "gulp build",
+    "build-debug": "gulp build --debug",
+    "watch": "gulp build --watch",
+    "watch-debug": "gulp build --watch --debug"
+  },
+  "author": "Cisco",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-relay-plugin": "^0.7.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-if": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
+    "yargs": "^4.1.0"
+  },
+  "dependencies": {
+    "graphql": "^0.4.16",
+    "jquery": "^2.2.0",
+    "lodash": "^4.2.0",
+    "material-ui": "^0.14.4",
+    "react": "^0.14.6",
+    "react-addons-update": "^0.14.7",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.6",
+    "react-icons": "^1.0.3",
+    "react-motion": "^0.4.2",
+    "react-relay": "^0.7.0",
+    "react-router": "^2.0.0-rc6",
+    "react-router-relay": "^0.9.0",
+    "react-tap-event-plugin": "^0.2.2",
+    "redux": "^3.1.6",
+    "redux-thunk": "^1.0.3",
+    "velocity-react": "^1.1.2"
+  }
+}
